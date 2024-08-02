@@ -1,0 +1,138 @@
+@import url(../operations-history/operations-history.component.scss);
+.calculator,
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 12px;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  padding: 24px 16px 16px;
+  background-color: rgb(243, 243, 243);
+}
+
+.calculator {
+  margin-bottom: 8px;
+}
+
+input,
+select {
+  display: flex;
+  padding: 8px;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  width: 100%;
+}
+
+select,
+.select {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+select__group-modifier,
+.select__group-modifier {
+  width: 100%;
+  text-align: center;
+}
+
+.select__modifier {
+  border: none;
+  background-color: transparent;
+}
+
+input:focus-visible {
+  outline: 2px solid rgb(85, 85, 251);
+  border: none;
+}
+
+button {
+  padding: 12px;
+  border: 1px solid #f1f1f1;
+  background-color: #fff;
+  color: #131313;
+  border-radius: 4px;
+  width: 100%;
+  font-weight: 500;
+}
+
+button:active {
+  background-color: #e7e7e7;
+}
+
+.btn {
+  font-weight: 500;
+}
+.btn__primary {
+  background-color: rgb(72, 72, 255);
+  color: white;
+}
+.btn__primary:active {
+  background-color: rgb(54, 54, 226);
+}
+.btn__subprimary {
+  background-color: #e1e1ff;
+  color: rgb(72, 72, 255);
+}
+.btn__subprimary:active {
+  background-color: #aeaeff;
+}
+.btn__danger {
+  background-color: rgb(219, 30, 30);
+  color: white;
+}
+.btn__danger:active {
+  background-color: rgb(190, 28, 28);
+  color: white;
+}
+
+.calc__buttons {
+  justify-content: space-between;
+}
+
+.flex-container {
+  display: flex;
+  gap: 8px;
+}
+
+.flex-container--v {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  gap: 16px;
+}
+
+.result {
+  border-radius: 4px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  font-weight: bold;
+}
+
+.box {
+  padding: 16px;
+}
+
+.flex-container {
+  justify-content: space-between;
+  align-items: end;
+}
+
+.history-time {
+  font-size: 12px;
+  opacity: 0.4;
+}
+
+.history-operation {
+  opacity: 0.8;
+}
+
+.history-result {
+  opacity: 0.6;
+}/*# sourceMappingURL=operations-history.component.css.map */

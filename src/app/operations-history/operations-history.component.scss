@@ -1,0 +1,27 @@
+@import '../my-calculator/my-calculator.component.scss';
+
+* {
+    font-weight: bold;
+}
+
+.box {
+    padding: 16px;
+}
+
+.flex-container {
+    justify-content: space-between;
+    align-items: end;
+}
+
+.history-time {
+    font-size: 12px;
+    opacity: 0.4;
+}
+
+.history-operation {
+    opacity: 0.8;
+}
+
+.history-result {
+    opacity: 0.6;
+}
